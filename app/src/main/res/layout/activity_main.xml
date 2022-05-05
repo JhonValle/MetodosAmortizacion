@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:background="@drawable/fon3"
+    android:foregroundTint="#FDFDFD"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="SISTEMA FRANCES"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textSize="19sp" />
+
+    <EditText
+        android:id="@+id/etxtPrestamo"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_weight="1"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Ingrese Prestamo(P)  1000-50000"
+        android:inputType="number"
+        android:textColorHint="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etxtTiempo"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_weight="1"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Ingrese Tiempo(n) 6-24"
+        android:inputType="number"
+        android:textColorHint="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etxtTEM"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_weight="1"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="IngreseTasa Efectiva Mensual (1-4)%"
+        android:inputType="numberDecimal"
+        android:textColorHint="#000000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:background="#E91E63"
+        android:fontFamily="cursive"
+        android:onClick="calcular"
+        android:text="Calcular"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#000000"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="351dp">
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColorHint="#000000"></TableLayout>
+    </ScrollView>
+
+
+</LinearLayout>

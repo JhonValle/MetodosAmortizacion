@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/MK/AndroidStudioProjects/IngEco/app/src/main/res/drawable/ic_currency_pen.xml" value="0.348" />
+        <entry key="..\:/Users/MK/AndroidStudioProjects/IngEco/app/src/main/res/drawable/ic_prestamo.xml" value="0.348" />
+        <entry key="..\:/Users/MK/AndroidStudioProjects/IngEco/app/src/main/res/drawable/ic_reloj.xml" value="0.348" />
+        <entry key="..\:/Users/MK/AndroidStudioProjects/IngEco/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Sistema Frances/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Sistema Frances/app/src/main/res/layout/activity_menu.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Sistema Frances/app/src/main/res/layout/activity_sistema_aleman.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Sistema Frances/app/src/main/res/layout/activity_sistema_flat.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Sistema Frances/app/src/main/res/layout/activity_sistema_frances.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Sistema Frances/app/src/main/res/layout/activity_sistema_ingles.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Sistema Frances/app/src/main/res/layout/activity_splash.xml" value="0.264" />
+        <entry key="..\:/Users/USER/Downloads/IngEco/app/src/main/res/font/montserrat_alternates_light.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/USER/Downloads/IngEco/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/USER/Downloads/IngEco/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
